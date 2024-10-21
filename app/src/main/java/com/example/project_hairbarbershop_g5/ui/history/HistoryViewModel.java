@@ -1,16 +1,16 @@
-package com.example.project_hairbarbershop_g5.ui.notifications;
+package com.example.project_hairbarbershop_g5.ui.history;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class HistoryViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public HistoryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("Trang lịch sử dc cắt tóc");
     }
 
     public LiveData<String> getText() {

@@ -10,7 +10,7 @@ public class AccountViewModel extends ViewModel {
 
     public AccountViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("Trang tài khoản cắt tóc");
     }
 
     public LiveData<String> getText() {
